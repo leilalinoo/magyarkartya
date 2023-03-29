@@ -1,0 +1,35 @@
+body {
+  background-image: url("forras/ash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+img {
+  width: 70%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  padding: 3px;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+
+table tr td:nth-child(1){
+    
+  background-color: rgb(255, 255, 255, 0.6);
+}
